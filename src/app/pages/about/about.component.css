@@ -1,0 +1,51 @@
+.cares-intro{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgba(191, 210, 248, 0.192);
+}
+
+.cares-intro .col-md-4 img{
+    width: 350px;
+}
+
+.cares-intro .col-md-8 h2{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #159DEC;
+    font-family: 'WorkSans-SemiBold';
+}
+
+.cares-intro .col-md-8 h3{
+    font-size: 28px;
+    color: #1F2B6C;
+    font-family: 'YesevaOne';
+}
+
+.cares-intro .pass-container{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 15px;
+}
+
+.cares-intro .pass-container ul.passions{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cares-intro .pass-container ul.passions li{
+    font-size: 16px;
+    padding: 5px;
+}
+
+.cares-intro .pass-container ul.passions li span{
+    font-size: 32px;
+    color: #159DEC;
+    vertical-align: middle;
+    line-height: 0;
+    margin-right: 5px;
+}
+
+.cares-intro p{
+    font-size: 14px;
+}

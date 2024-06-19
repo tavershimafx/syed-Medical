@@ -1,0 +1,17 @@
+.medical-intro.services-sp .booking-container .row{
+    margin: 0;
+}
+
+.contact-info h2{
+    font-size: 20px;
+    color: #159DEC;
+    text-transform: uppercase;
+    font-family: 'WorkSans-Medium';
+}
+
+.contact-info h3{
+    font-size: 36px;
+    color: #1F2B6C;
+    font-family: 'YesevaOne';
+    text-transform: capitalize;
+}

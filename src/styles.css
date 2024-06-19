@@ -1,0 +1,337 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('./assets/fonts/all.min.css');
+@font-face{
+    font-family: 'YesevaOne';
+    src: url('./assets/fonts/YesevaOne-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'WorkSans-Bold';
+    src: url('./assets/fonts/WorkSans-Bold.ttf');
+}
+
+@font-face{
+    font-family: 'WorkSans-ExtraBold';
+    src: url('./assets/fonts/WorkSans-ExtraBold.ttf');
+}
+
+@font-face{
+    font-family: 'WorkSans-ExtraLight';
+    src: url('./assets/fonts/WorkSans-ExtraLight.ttf');
+}
+
+@font-face{
+    font-family: 'WorkSans-Light';
+    src: url('./assets/fonts/WorkSans-Light.ttf');
+}
+
+@font-face{
+    font-family: 'WorkSans-Medium';
+    src: url('./assets/fonts/WorkSans-Medium.ttf');
+}
+
+@font-face{
+    font-family: 'WorkSans-Regular';
+    src: url('./assets/fonts/WorkSans-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'WorkSans-SemiBold';
+    src: url('./assets/fonts/WorkSans-SemiBold.ttf');
+}
+
+*{
+    font-family: 'WorkSans-Regular';
+    box-sizing: border-box;
+    z-index: 5;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    max-width: 100vw;
+    top: 0;
+    left: 0;
+}
+
+a, a:active, a:visited, a:hover, a:link{
+    text-decoration: none !important;
+    color: #1F2B6C;
+    text-transform: none;
+}
+
+
+/********************************************************************/
+/***************************Input Elements***************************/
+/********************************************************************/
+button.regular, a.regular-btn{
+    background-color: #BFD2F8;
+    color: #1F2B6C;
+    padding: 8px 20px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button.regular.inverted, a.regular-btn.inverted{
+    color: #BFD2F8;
+    background-color: #1F2B6C;
+}
+
+section .booking-container{
+    background-color: #1F2B6C;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+section .booking-container .col-md-6{
+    padding: 0;
+}
+
+section .booking-container input, 
+section .booking-container textarea{
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+    background-color: #1F2B6C;
+    color: #BFD2F8;
+}
+
+section .booking-container .l-input{
+    border-right: 1px solid #BFD2F8;
+    border-bottom: 1px solid #BFD2F8;
+}
+
+section .booking-container .r-input{
+    border-bottom: 1px solid #BFD2F8;
+}
+
+section .booking-container select{
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 13px;
+    font-size: 12px;
+    background-color: #1F2B6C;
+    color: #BFD2F8;
+}
+
+section .booking-container .submit{
+    padding: 0;
+}
+
+section .booking-container button{
+    background-color: #BFD2F8;
+    color: #1F2B6C;
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: 'WorkSans-SemiBold';
+}
+
+
+/****************************************************************/
+/****************************************************************/
+/****************************************************************/
+section.page-banner{
+    position: relative;
+    padding: 40px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-banner .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff88;
+    z-index: 5;
+}
+
+.page-banner .container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 0;
+    z-index: 100;
+}
+
+.page-banner .container ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.page-banner .container ul li{
+    display: inline;
+}
+
+.page-banner .container h1{
+    font-size: 32px;
+    color: #1F2B6C;
+    font-family: 'YesevaOne';
+}
+
+section.medical-intro{
+    background-color: rgba(191, 210, 248, 0.192);
+ }
+ 
+ section.medical-intro .medics-info{
+    text-align: center;
+     padding-top: 50px;
+     padding-left: 150px;
+     padding-right: 150px;
+ }
+ 
+ section.medical-intro .medics-info h2{
+     font-size: 20px;
+     color: #159DEC;
+     text-transform: uppercase;
+ }
+ 
+ section.medical-intro .medics-info h3{
+     font-size: 36px;
+     color: #1F2B6C;
+     font-family: 'YesevaOne';
+     text-transform: capitalize;
+ }
+ 
+ section.services-sp{
+    padding-top: 40px;
+}
+ 
+section.services-sb{
+   padding-bottom: 40px;
+}
+
+/****************************************************************/
+/***************************Contact*********************************/
+/****************************************************************/
+ 
+.contact-means{
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact-means .col-md-6 .mt{
+    margin-top: 20px;
+}
+
+.contact-item{
+    background-color: #BFD2F8;
+    padding: 50px 30px;
+    border-radius: 5px;
+}
+
+.contact-item.active{
+    background-color: #1F2B6C;
+}
+
+.contact-item img{
+    width: 30px;
+}
+
+.contact-item .emerge{
+    font-family: 'WorkSans-ExtraBold';
+    margin-bottom: 0;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #1F2B6C;
+}
+
+.contact-item.active .emerge{
+    color: #BFD2F8;
+}
+
+.contact-item .ord:first-of-type{
+    margin-top: 15px;
+}
+
+.contact-item .ord{
+    margin-bottom: 0;
+    color: #1F2B6C;
+    font-size: 13px;
+}
+
+.contact-item.active .ord{
+    color: #BFD2F8;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 575.98px) {
+    section.medical-intro .medics-info{
+        padding-left: 0;
+        padding-right: 0;
+     }
+ 
+     section.medical-intro .medics-info h3{
+         font-size: 28px;
+     }
+}
+
+
+/*********************************************************************/
+/***************************Mobile phones*****************************/
+/*********************************************************************/
+@media only screen and (max-width: 575.98px) and (orientation:portrait) {
+/* For portrait layouts only */
+}
+@media only screen and (min-width: 360px) and (max-width: 575.98px) and (orientation:portrait) {
+    /* For portrait layouts only */
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    /* For landscape layouts only */
+  }
+
+/*********************************************************************/
+/******************************Tablets********************************/
+/*********************************************************************/
+@media only screen and (min-width: 576px) and (max-width: 991.98px){
+    /*All tablets */
+
+}
+
+@media only screen and (min-width: 576px) and (orientation:portrait){
+    /*small pablets */
+
+}
+
+@media only screen and (min-width: 768px) {
+    /*specific pablets */
+   }
+   
+   @media only screen and (max-width: 767.98px) {
+    /*specific pablets */
+   }
+   
+   @media only screen and (max-width: 991.98px) {
+    /*specific pablets */
+   }
+
+
+/*********************************************************************/
+/***************************Small Laptops*****************************/
+/*********************************************************************/
+@media only screen and (min-width: 992px)and (max-width: 1199.98px) {
+    /* All small laptops*/
+
+}
+
+
+
+/*********************************************************************/
+/**********************Bigger screens/smart TVs***********************/
+/*********************************************************************/
+@media only screen and (min-width: 1200px) {}
+

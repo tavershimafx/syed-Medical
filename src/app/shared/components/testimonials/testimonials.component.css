@@ -1,0 +1,49 @@
+
+.testimonials{
+    position: relative;
+}
+
+.testimonials .container{
+    position: relative;
+    z-index: 10;
+    padding-bottom: 40px;
+}
+
+.testimonials .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(31, 43, 108, 0.445);
+    z-index: 5;
+}
+
+.testimonial{
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.testimonial .quote{
+    font-size: 72px;
+    font-family: 'YesevaOne';
+    margin-bottom: 0;
+}
+
+.testimonials .testimonial .testimony{
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.testimonial .hr-sm{
+    display: inline-block;
+    text-align: center;
+    height: 5px;
+    width: 200px;
+    border-bottom: 1px solid #fff;
+}
+
+.testimonial .testifier{
+    font-size: 14px;
+    color: #fff;
+}

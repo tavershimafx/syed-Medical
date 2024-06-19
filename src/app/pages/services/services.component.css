@@ -1,0 +1,106 @@
+section.services-sp .col-md-6{
+    margin-top: 20px;
+}
+
+.service-item{
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    overflow: hidden;
+}
+
+.service-item .image{
+    position: relative;
+    height: 246px;
+}
+
+
+.service-item .image .service-icon{
+    position: absolute;
+    bottom: -35px;
+    right: 20px;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    background-color: #1F2B6C;
+    text-align: center;
+    align-content: center;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.service-item .image .overlay{
+    text-align: center;
+    align-content: center;
+    display: none;
+}
+
+.service-item .image .overlay img{
+    width: 50px;
+    z-index: 16;
+}
+
+.service-item .image:hover .overlay{
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #1f2b6caf;
+    z-index: 15;
+}
+
+.service-item .image .service-icon img{
+    width: 30px;
+}
+
+.service-item .image img{
+    position: relative;
+    width: 260px;
+}
+
+.service-item .content{
+   padding: 15px;
+   margin: 30px 0 0 0;
+}
+
+.service-item .content .title{
+    font-size: 16px;
+    color: #1F2B6C;
+    font-family: 'WorkSans-Medium';
+}
+
+.service-item .content .short{
+    font-size: 12px;
+    margin: 10px 0 0 0;
+    line-height: normal;
+    text-align: left;
+}
+
+.service-item .content a{
+    font-size: 12px;
+    color: #159DEC;
+    margin: 10px 0 0 0;
+}
+
+.service-item .content a i{
+    font-size: 12px;
+    color: #1F2B6C;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 575.98px) {
+    .medical-intro.services-sp .container .col-md-6.col-lg-3{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: min-content;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991.98px){
+    /*All tablets */
+    .medical-intro.services-sp .container .col-md-6.col-lg-3{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 40%;
+    }
+}

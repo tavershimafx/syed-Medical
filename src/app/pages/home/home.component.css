@@ -1,0 +1,258 @@
+section{
+    width: 100%;
+    position: relative;
+}
+
+section.company .hero{
+    position: relative;
+    overflow: hidden;
+}
+
+section.company .hero img{
+    max-width: 100%;
+    position: relative;
+}
+
+section.company .hero .oval-overlay{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    background-color: rgba(21, 157, 236, 0.301);
+    top: -350px;
+    left: -250px;
+    z-index: 10;
+}
+
+section.company .hero .hero-text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+section.company .hero .hero-text .container{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section.company .hero .hero-text .caring{
+    font-size: 16px;
+    color: #159DEC;
+    margin-bottom: 0;
+}
+
+section.company .hero .hero-text .leading{
+    font-size: 48px;
+    color: #1F2B6C;
+    font-family: 'YesevaOne';
+}
+
+section.company .hero .hero-text a.regular-btn{
+    width: fit-content;
+}
+
+section.in-back{
+    padding: 30px 0;
+}
+
+section.in-back .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff88;
+}
+
+section.in-back .book-appointment{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 60px;
+}
+
+section.in-back .book-appointment h3{
+    color: #159DEC;
+    font-family: 'YesevaOne';
+    text-align: center;
+}
+
+section.in-back .book-appointment p{
+    font-size: 13px;
+    text-align: left;
+}
+
+section.medical-intro .medics-info p{
+    font-size: 14px;
+    text-align: center;
+}
+
+section.medical-intro .medics-info .learn-more{
+    font-size: 14px;
+    text-align: center;
+    color: #159DEC;
+    margin-top: 25px;
+}
+
+section.medical-intro .medics-info .learn-more i{
+    color: #1F2B6C;
+}
+
+section.medical-intro.backdoctors{
+    padding-top: 50px;
+}
+
+section.medical-intro.backdoctors .container{
+    height: 250px;
+    background-size: cover;
+}
+
+.believe-cares{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.believe-cares .care-info div.cares{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    border-radius: 4px;
+}
+
+.believe-cares .care-info div.cares div:not(:last-of-type){
+    padding: 15px;
+    text-align: center;
+}
+
+.believe-cares .care-info div.cares div:last-of-type{
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    border-radius: 0 0 4px 4px;
+}
+
+.believe-cares .care-info div.cares div.active{
+    background-color: #1F2B6C;
+    color: #BFD2F8;
+}
+
+.believe-cares .care-info div.cares div img{
+    width: 20px;
+}
+
+.believe-cares .care-info div.cares div p{
+   margin-top: 10px;
+   margin-bottom: 5px;
+}
+
+.believe-cares .care-info h4{
+    font-size: 24px;
+}
+ 
+.believe-cares .care-info ul.passions{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+ 
+.believe-cares .care-info ul.passions:first-of-type{
+    margin-right: 20px;
+}
+
+.believe-cares .care-info.passions{
+    margin: 0 20px;
+}
+
+.believe-cares .care-info.passions .pass-container{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 15px;
+}
+
+.believe-cares .care-info ul.passions li{
+    font-size: 16px;
+    padding: 5px;
+}
+
+.believe-cares .care-info ul.passions li span{
+    font-size: 32px;
+    color: #159DEC;
+    vertical-align: middle;
+    line-height: 0;
+    margin-right: 5px;
+}
+
+.believe-cares .care-info.passions p{
+    font-size: 14px;
+}
+
+.believe-cares .care-info .doctor-in-action img:not(:first-of-type){
+    margin-top: 10px;
+}
+
+.specialties{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+}
+
+.specialties:hover{
+    background-color: #1F2B6C;
+    color: #BFD2F8;
+}
+
+.specialties p{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+
+
+/*********************************************************************/
+/***************************Mobile phones*****************************/
+/*********************************************************************/
+@media only screen and (min-width: 360px) and (max-width: 575.98px) {
+    section.company .hero .oval-overlay{
+        width: 200px;
+        height: 200px;
+        top: -150px;
+        left: -100px;
+    }
+
+    section.company .hero .hero-text .container{
+        align-items: center;
+        text-align: center;
+    }
+
+    section.company .hero .hero-text .caring{
+        font-size: 12px;
+    }
+    
+    section.company .hero .hero-text .leading{
+        font-size: 18px;
+        line-height: normal;
+    }
+
+    section.medical-intro.backdoctors .container{
+        height: 100px;
+    }
+    
+    .believe-cares .care-info.passions,
+    .believe-cares .care-info.doctors{
+        display: none;
+    }
+
+    .our-specialties{
+        display: none;
+    }
+
+    .book-appointment, .book-appointment p{
+        padding-right: 15px !important;
+        text-align: center !important;
+    }
+}

@@ -1,0 +1,85 @@
+.medical-intro.services-sp .booking-container .row{
+    margin: 0;
+}
+
+.contact-info h3{
+    font-size: 36px;
+    color: #1F2B6C;
+    font-family: 'YesevaOne';
+    text-transform: capitalize;
+}
+
+.contact-info p{
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+
+.schedules{
+    background-color: #1F2B6C;
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+}
+
+.schedules h2{
+    color: #BFD2F8;
+    font-size: 30px;
+    font-family: 'YesevaOne';
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.schedules .timeline{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.schedules .timeline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.schedules .timeline p{
+    font-size: 12px;
+    color: #BFD2F8;
+    margin-bottom: 0;
+}
+
+.schedules .timeline p.line{
+    height: 1px;
+    width: 40px;
+    border-bottom: 1px solid #BFD2F8;
+}
+
+.schedules p.bottom-line{
+    display: inline-block;
+    width: 60%;
+    height: 1px;
+    margin-top: 20px;
+    border-bottom: 1px solid #BFD2F8;
+}
+
+.schedules .call-line{
+    align-content: center;
+}
+
+.schedules .call-line .blocks{
+    display: inline-block;
+}
+
+.schedules .call-line img{
+    width: 30px;
+    vertical-align: sub;
+}
+
+.schedules .call-line p{
+    margin: 0;
+    line-height: normal;
+    font-size: 14px;
+    text-align: left;
+    color: #BFD2F8;
+}

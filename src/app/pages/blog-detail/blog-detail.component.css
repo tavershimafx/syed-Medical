@@ -1,0 +1,44 @@
+.blog-posts .post{
+    margin-top: 30px;
+}
+
+.blog-posts .post img{
+    width: 100%;
+}
+
+.post-overview{
+    margin-top: 25px;
+}
+
+.post-metadata{
+    margin-bottom: 0;
+}
+
+.post-metadata span{
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.post-metadata span .fa-calendar,
+.post-metadata span .fa-eye{
+    color: #1F2B6C;
+}
+
+.post-metadata span .fa-user{
+    color: #159EEC;
+}
+
+.post-metadata span .fa-heart{
+    color: #E2315C;
+}
+
+.post-overview .short-description{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.post-navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

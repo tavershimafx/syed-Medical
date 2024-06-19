@@ -1,0 +1,69 @@
+.recent-posts{
+    margin-top: 30px;
+}
+
+.recent-posts .search{
+    background-color: #1F2B6C;
+    font-size: 14px;
+    border-radius: 5px;
+    overflow: hidden;
+    color: #BFD2F8;
+}
+
+.recent-posts .search input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 90%;
+    font-size: 14px;
+    color: #BFD2F8;
+    background-color: #1F2B6C;
+}
+
+.recent-posts .recent-container{
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.recent-posts .recent-container h3{
+    font-family: 'YesevaOne';
+    font-size: 26px;
+    color: #1F2B6C;
+    margin-bottom: 10px;
+}
+
+.recent-posts .recent-container .post-overview{
+    margin-top: 10px;
+}
+
+.recent-posts .recent-container .post-overview .block{
+    display: inline-block;
+}
+
+.recent-posts .recent-container .post-overview .block img{
+    vertical-align: unset;
+}
+
+.recent-posts .recent-container .post-overview .content{
+   overflow-wrap: break-word;
+   width: 240px;
+   margin-left: 10px;
+}
+
+.recent-posts .recent-container .post-overview .content p{
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.recent-posts .recent-container .post-overview .content p.date{
+    color: #159EEC;
+}
+
+.recent-posts .recent-container .post-overview .content p.title{
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    margin-top: 5px;
+    font-family: 'WorkSans-Medium';
+}
